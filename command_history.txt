@@ -1,0 +1,29 @@
+    1  cat > Pets.txt <<EOL
+dogs
+cats
+hamsters
+EOL
+    2  cat > PackAnimals.txt <<EOL
+horses
+camels
+donkeys
+EOL
+    3  cat Pets.txt PackAnimals.txt > AllAnimals.txt
+    4  cat AllAnimals.txt
+    5  mv AllAnimals.txt HumanFriends.txt
+    6  ls
+    7  mkdir FriendsDirectory
+    8  mv HumanFriends.txt FriendsDirectory/
+    9  ls FriendsDirectory
+   10  ls
+   11  wget https://dev.mysql.com/get/mysql-apt-config_0.8.17-1_all.deb
+   12  sudo dpkg -i mysql-apt-config_0.8.17-1_all.deb
+   13  sudo apt update
+   14  sudo apt install mysql-server
+   15  wget http://mirrors.kernel.org/ubuntu/pool/universe/h/htop/htop_3.0.5-7_amd64.deb
+   16  sudo dpkg -i htop_3.0.5-7_amd64.deb
+   17  sudo dpkg -r htop
+   18  history > command_history.txt
+ФИО: Чеботарёв Кирилл Николаевич
+Дата сдачи: 18 июня 2024
+Группа: ?
